@@ -73,7 +73,7 @@ namespace Zadanie_1
       double pole = 0;
       int i = 0;
       string taknie = "T";
-      Trojat pTr = new Trojat();
+      Trojat pTr = new Trojat(); //to można było przenieść do pętli
 
       while (taknie.ToUpper() == "T")
       {
